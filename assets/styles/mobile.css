@@ -1,0 +1,89 @@
+/* Reflow the exported layouts without changing typography or brand styling. */
+@media (max-width: 1279px) {
+  #main .framer-KXWe3 .framer-mg1q5c,
+  #main .framer-cXDLV .framer-18xi10d {
+    width: 100%;
+    padding: 0;
+  }
+  #main .framer-cXDLV .framer-fx0jpc { height: auto; }
+}
+
+@media (max-width: 1023px) {
+  #main .framer-7wFk4 .framer-9vvu9k { padding: 128px 24px 64px; gap: 56px; }
+  #main .framer-7wFk4 .framer-1shecix { flex-direction: column; align-items: stretch; padding: 0; gap: 40px; }
+  #main .framer-7wFk4 .framer-1ikld90,
+  #main .framer-7wFk4 .framer-islff,
+  #main .framer-7wFk4 .framer-fvr1r4,
+  #main .framer-7wFk4 .framer-1z055i8 { width: 100%; max-width: none; min-width: 0; }
+  #main .framer-7wFk4 .framer-1ikld90 { gap: 32px; }
+  #main .framer-7wFk4 .framer-1z055i8 { align-items: stretch; }
+  #main .framer-7wFk4 .framer-198i6xv { width: 100%; }
+  #main .framer-7wFk4 .framer-1wc3jmo { flex-direction: column; gap: 24px; }
+  #main .framer-7wFk4 .framer-1mfcc66 { width: 100%; max-width: 481px; padding: 0; height: 360px; }
+  #main .framer-7wFk4 .site-contact-email { width: 100%; padding: 0; }
+  #main .framer-7wFk4 .framer-9uhey9 { min-width: 0; white-space: normal; overflow-wrap: anywhere; }
+  #main .framer-7wFk4 .framer-1ih8gnh { gap: 16px; }
+}
+
+@media (max-width: 767px) {
+  #main .framer-Z2ZNJ .framer-1ptuyjc { left: 20px; right: 20px; width: auto; max-width: calc(100% - 40px); bottom: 64px; }
+  #main .framer-Z2ZNJ .framer-1ptuyjc h1 { white-space: normal; overflow-wrap: anywhere; }
+  #main .framer-Z2ZNJ .framer-1ptuyjc h1 { max-width: 100%; white-space: normal; }
+  #main .framer-HsyAY .framer-gykam4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: auto;
+    min-height: 340px;
+    padding: 64px 20px 40px;
+    gap: 8px;
+  }
+  #main .framer-HsyAY .framer-gykam4 > div {
+    position: relative;
+    inset: auto;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+  }
+  #main .framer-HsyAY .framer-1v1jf19-container { order: 4; margin-top: 16px; width: auto; }
+  #main .framer-HsyAY .framer-kqt8k4 { order: 1; }
+  #main .framer-HsyAY .framer-tj3ned { order: 2; }
+  #main .framer-HsyAY .framer-mumrs5 { order: 3; }
+  #main .framer-HsyAY .framer-c2d2et { padding: 56px 20px 24px; }
+  #main .framer-HsyAY .framer-1u01wn4 { width: 100%; }
+  #main .framer-HsyAY .framer-8ust6n { padding: 24px 20px; }
+  #main .framer-HsyAY .framer-l0bp6i,
+  #main .framer-HsyAY .framer-v1amdn,
+  #main .framer-HsyAY .framer-113a2r8 { flex-direction: column; height: auto; padding: 28px 0; gap: 16px; }
+  #main .framer-HsyAY .framer-8ust6n > div > div { flex: none; width: 100%; }
+  #main .framer-HsyAY .framer-ikfkai { padding: 48px 0; gap: 32px; }
+  #main .framer-HsyAY .framer-nqfbeu { white-space: normal; max-width: calc(100% - 40px); }
+
+  #main .framer-KXWe3 .framer-13i71c,
+  #main .framer-cXDLV .framer-li1on9 { padding: 80px 20px; }
+  #main .framer-cXDLV .framer-1pmd0lt { padding: 64px 20px; }
+  #main .framer-cXDLV .framer-9dumrj { padding: 64px 20px 24px; }
+  #main .framer-cXDLV .framer-12tl8us { padding: 32px 20px 64px; }
+  #main .framer-cXDLV .framer-l4zjd1 { gap: 48px; }
+
+  #main .framer-KXWe3 .framer-1u4ns51,
+  #main .framer-KXWe3 .framer-wsgrw7,
+  #main .framer-KXWe3 .framer-5wqrus,
+  #main .framer-KXWe3 .framer-17bwh1v,
+  #main .framer-KXWe3 .framer-1uahu8r,
+  #main .framer-KXWe3 .framer-1k2m63z,
+  #main .framer-KXWe3 .framer-2v4by7 { flex-direction: column; align-items: flex-start; height: auto; gap: 6px; overflow: visible; }
+  #main .framer-KXWe3 :is(.framer-1u4ns51,.framer-wsgrw7,.framer-5wqrus,.framer-17bwh1v,.framer-1uahu8r,.framer-1k2m63z,.framer-2v4by7) > div {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    white-space: normal;
+  }
+  #main .framer-KXWe3 :is(.framer-1u4ns51,.framer-wsgrw7,.framer-5wqrus,.framer-17bwh1v,.framer-1uahu8r,.framer-1k2m63z,.framer-2v4by7) > div[data-framer-name="Title"] h4 {
+    width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  #main .framer-KXWe3 .framer--slideshow-controls { bottom: 0 !important; }
+}
