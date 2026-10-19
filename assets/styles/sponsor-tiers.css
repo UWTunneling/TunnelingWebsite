@@ -44,6 +44,7 @@
 .sponsor-tier-link { display: inline-block; padding: 12px 24px; border: 1px solid #fafafa; border-radius: 16px; background: #5922e4; color: #fafafa; font-family: Orbitron, Arial, sans-serif; text-decoration: none; }
 .sponsor-tier-link:hover { color: #ffcc00; }
 .sponsor-tier-link:focus-visible { outline: 2px solid #ffcc00; outline-offset: 5px; }
+.sponsor-tier-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 28px; }
 .sponsor-tier { min-height: calc(100svh - 120px); display: flex; flex-direction: column; justify-content: center; padding: 48px 0; scroll-margin-top: 120px; }
 .sponsor-tier p { margin: 0 0 24px; color: #c8c3cf; }
 .sponsor-tier ul { margin: 0; padding-left: 24px; }

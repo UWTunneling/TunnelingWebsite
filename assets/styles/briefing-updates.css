@@ -1,0 +1,79 @@
+/* A compact, dark technical treatment for content drawn from the design brief. */
+.briefing-panel {
+  position: relative;
+  padding: clamp(44px, 7vw, 88px) 24px;
+  overflow: hidden;
+  color: #f7f7f7;
+  background: #101010;
+  border-top: 1px solid #30234e;
+}
+.briefing-panel::before {
+  position: absolute;
+  top: 0;
+  left: max(24px, calc((100% - 1120px) / 2));
+  width: 72px;
+  height: 3px;
+  background: #7044e8;
+  content: "";
+}
+.briefing-panel-inner { width: min(100%, 1120px); margin: 0 auto; }
+.briefing-kicker {
+  color: #b69aff;
+  font: 600 12px/1.5 Inter, Arial, sans-serif;
+  letter-spacing: .16em;
+}
+.briefing-panel h2 {
+  margin: 12px 0 18px;
+  color: #fafafa;
+  font: 600 clamp(28px, 4vw, 42px)/1.2 Orbitron, Arial, sans-serif;
+}
+.briefing-panel-inner > p:not(.briefing-kicker):not(.briefing-note) {
+  max-width: 900px;
+  color: #c9c9c9;
+  font: 18px/1.65 Inter, Arial, sans-serif;
+}
+.briefing-milestones {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 32px;
+  border-top: 1px solid #393939;
+  border-bottom: 1px solid #393939;
+}
+.briefing-milestones article { padding: 22px 24px 22px 0; }
+.briefing-milestones article + article {
+  padding-left: 24px;
+  border-left: 1px solid #393939;
+}
+.briefing-milestones h3 {
+  margin: 0 0 10px;
+  color: #f7f7f7;
+  font: 500 18px/1.4 Orbitron, Arial, sans-serif;
+}
+.briefing-milestones p, .briefing-note {
+  color: #bdbdbd;
+  font: 15px/1.6 Inter, Arial, sans-serif;
+}
+.briefing-note { margin-top: 20px; font-size: 12px; }
+
+/* Let the competition recap flow directly from the TBM content, without a large purple field. */
+.competition-highlight {
+  padding: 40px 32px 72px;
+  background: #101010;
+  border-top: 1px solid #30234e;
+}
+.competition-logo { width: min(100%, 520px); margin-bottom: 32px; }
+.competition-result figcaption { margin-top: 24px; }
+.competition-result .competition-date { color: #b69aff; }
+
+@media (max-width: 767px) {
+  .briefing-panel { padding: 40px 20px; }
+  .briefing-milestones { grid-template-columns: 1fr; margin-top: 24px; }
+  .briefing-milestones article, .briefing-milestones article + article {
+    padding: 18px 0;
+    border-left: 0;
+  }
+  .briefing-milestones article + article { border-top: 1px solid #393939; }
+  .briefing-panel-inner > p:not(.briefing-kicker):not(.briefing-note) { font-size: 16px; }
+  .competition-highlight { padding: 28px 20px 48px; }
+  .competition-logo { margin-bottom: 24px; }
+}
