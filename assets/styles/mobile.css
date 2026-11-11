@@ -1,4 +1,4 @@
-/* Reflow the exported layouts without changing typography or brand styling. */
+/* Responsive overrides target the generated Framer classes in the page HTML. */
 @media (max-width: 1279px) {
   #main .framer-KXWe3 .framer-mg1q5c,
   #main .framer-cXDLV .framer-18xi10d {

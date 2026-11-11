@@ -28,6 +28,7 @@
   align-items: center;
   gap: 40px;
 }
+/* The scroll script selects a desktop badge through aria-hidden. */
 .tier-displays { display: grid; width: 100%; }
 .tier-display { grid-area: 1 / 1; opacity: 0; visibility: hidden; transition: opacity 180ms ease-out; }
 .tier-display[aria-hidden="false"] { opacity: 1; visibility: visible; }

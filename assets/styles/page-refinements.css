@@ -19,6 +19,7 @@
   line-height: 1.6;
 }
 
+/* Keep sponsor logos in a consistent display area while preserving their aspect ratios. */
 .current-sponsors {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

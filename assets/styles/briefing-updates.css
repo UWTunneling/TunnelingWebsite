@@ -1,4 +1,4 @@
-/* A compact, dark technical treatment for content drawn from the design brief. */
+/* Shared design briefing panels for Home, TBM, and Sponsor. */
 .briefing-panel {
   position: relative;
   padding: clamp(44px, 7vw, 88px) 24px;
@@ -55,7 +55,7 @@
 }
 .briefing-note { margin-top: 20px; font-size: 12px; }
 
-/* Let the competition recap flow directly from the TBM content, without a large purple field. */
+/* On TBM, these rules load after the recap base styles in page-refinements.css. */
 .competition-highlight {
   padding: 40px 32px 72px;
   background: #101010;

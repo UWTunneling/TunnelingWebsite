@@ -1,3 +1,4 @@
+// Match the desktop tier badge to the last section that reached the viewport midpoint.
 (function () {
   var panels = Array.from(document.querySelectorAll('.sponsor-tier[data-tier]'));
   var displays = document.querySelectorAll('[data-tier-display]');
@@ -13,6 +14,7 @@
       display.setAttribute('aria-hidden', String(display.dataset.tierDisplay !== active.dataset.tier));
     });
   }
+  // Coalesce scroll and resize events before reading panel positions.
   function schedule() {
     if (!scheduled) {
       scheduled = true;

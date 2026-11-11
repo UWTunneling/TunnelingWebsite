@@ -1,3 +1,4 @@
+// Connect the exported slideshow controls to their sibling slide track.
 (function () {
   document.querySelectorAll('.framer--slideshow-controls').forEach(function (controls) {
     var track = controls.parentElement.querySelector('ul');
@@ -6,6 +7,7 @@
     var current = 0;
     function show(index) {
       current = (index + slides.length) % slides.length;
+      // Measure both slides in the same coordinate space so the current track offset cancels out.
       var first = slides[0].firstElementChild.getBoundingClientRect();
       var target = slides[current].firstElementChild.getBoundingClientRect();
       var offset = target.left - first.left;

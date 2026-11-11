@@ -1,4 +1,5 @@
-// Render the shared WT social-card design with Sharp: node scripts/generate-social-previews.cjs
+// Render the checked-in 1200 × 630 share cards from the common SVG layout.
+// Run from the repository root with Sharp available to Node.js.
 const fs = require('node:fs');
 const path = require('node:path');
 const sharp = require('sharp');
